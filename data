@@ -15,4 +15,4 @@ cell_boundaries.parquet: Another Parquet file, likely containing spatial data re
 
 gene_panel.json: A JSON file that likely contains a list or dictionary of genes that were selected or identified as significant in the analysis.
 
-/content/4plex_40k_fixed_tumor_ovary_skin_breast_lung_multiplex_OvarianCancer_BC1_count_sample_filtered_feature_bc_matrix.h5: This HDF5 file seems to be the primary dataset used for spatial transcriptomics, likely containing filtered feature barcode matrices for different samples.
+4plex_40k_fixed_tumor_ovary_skin_breast_lung_multiplex_OvarianCancer_BC1_count_sample_filtered_feature_bc_matrix.h5: This HDF5 file seems to be the primary dataset used for spatial transcriptomics, likely containing filtered feature barcode matrices for different samples.
