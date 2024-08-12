@@ -1,0 +1,7 @@
+/data/*
+/processed_data/*
+*.h5ad
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
