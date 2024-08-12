@@ -18,7 +18,7 @@ Usage
 1. Running the Analysis
 Clone the repository to your local machine:
 
-git clone https://github.com/your-username/OvarySpatial.git
+git clone https://github.com/tissueandcells/OvarySpatial.git
 cd OvarySpatial
 
 2.Install the necessary dependencies:
