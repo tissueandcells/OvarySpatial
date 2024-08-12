@@ -1,0 +1,64 @@
+Spatial Transcriptomics Analysis of Ovarian Cancer
+
+Overview
+This repository contains the code and data associated with the research project titled "Spatial Transcriptomics Analysis of Ovarian Cancer: De Novo Gene Selection and Functional Characterization". 
+The study aims to explore the spatial expression patterns of key genes within ovarian cancer tissues and their potential roles in the tumor microenvironment.
+
+Abstract
+This study investigates the spatial expression patterns of crucial genes in ovarian cancer tissues, highlighting their roles within the tumor microenvironment. 
+Utilizing spatial transcriptomics, the research identifies de novo gene candidates and applies techniques such as UMAP visualization, pseudotime analysis, and differential gene expression analysis to examine cellular heterogeneity and spatial organization within the tumor. 
+Key findings include the identification of genes like BNIP3L, SLC2A1, and SLCO4A1, which are implicated in energy metabolism and oxygen transport, and COL1A2, COL3A1, and COL6A2, which play critical roles in extracellular matrix organization.
+
+Installation
+Ensure that Python 3.x is installed on your system. Install the required Python packages by running:
+
+pip install -r requirements.txt
+
+Usage
+1. Running the Analysis
+Clone the repository to your local machine:
+
+git clone https://github.com/your-username/OvarySpatial.git
+cd OvarySpatial
+
+2.Install the necessary dependencies:
+pip install -r requirements.txt
+
+3. Launch the Jupyter notebook or Colab to run the analysis
+
+
+Data
+
+Data used in this study is derived from ovarian cancer tissues and processed using the 10x Genomics Spatial Transcriptomics platform. Please ensure that any data files are stored in the data/ directory, and update the paths in the notebook as necessary.
+
+Methods
+
+Data Preparation and Filtering
+
+Filtering cells based on the expression of a minimum of 200 genes.
+Removal of low-quality cells and normalization of data.
+
+Clustering and Differential Gene Expression
+
+Application of the Leiden algorithm for cell clustering.
+Use of Wilcoxon rank-sum test for identifying differentially expressed genes.
+
+Functional Enrichment Analysis
+
+Functional enrichment using gprofiler to identify relevant biological processes and pathways.
+
+Pseudotime Analysis
+
+Modeling of cellular differentiation and gene expression changes over a biological timeline.
+
+Spatial Gene Expression
+
+Visualization and analysis of gene expression patterns across different regions of the tissue.
+
+Results
+
+Key results include the identification of gene clusters with significant roles in ovarian cancer biology:
+
+Cluster 0: High expression of genes involved in energy metabolism and oxygen transport.
+Cluster 5: Genes associated with extracellular matrix organization.
+Spatial Distribution: Broad versus localized expression patterns of key genes such as CFB, SPARC, EPCAM, and LAMP1.
