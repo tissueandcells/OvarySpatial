@@ -3,3 +3,16 @@ Cell feature matrices (HDF5 format).
 Cell boundaries (Parquet format).
 Gene panel information (JSON format).
 Spatial transcriptomics data (HDF5 format).
+
+
+transcripts.parquet: This file is a Parquet format file, which likely contains transcriptomic data. It's being loaded into a Pandas DataFrame.
+
+transcripts.zarr.zip: This is a Zarr file, which is a format for the storage of chunked, compressed, N-dimensional arrays. This file likely contains large-scale transcriptomic data.
+
+cell_feature_matrix.h5: This is an HDF5 file, which is commonly used for storing large amounts of hierarchical data. It seems to contain a matrix of cell features.
+
+cell_boundaries.parquet: Another Parquet file, likely containing spatial data regarding cell boundaries.
+
+gene_panel.json: A JSON file that likely contains a list or dictionary of genes that were selected or identified as significant in the analysis.
+
+/content/4plex_40k_fixed_tumor_ovary_skin_breast_lung_multiplex_OvarianCancer_BC1_count_sample_filtered_feature_bc_matrix.h5: This HDF5 file seems to be the primary dataset used for spatial transcriptomics, likely containing filtered feature barcode matrices for different samples.
