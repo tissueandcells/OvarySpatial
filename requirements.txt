@@ -1,0 +1,13 @@
+
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+geopandas
+umap-learn
+scanpy
+statsmodels
+h5py
+jupyterlab
