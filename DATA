@@ -1,0 +1,5 @@
+Transcriptomic data (in both Parquet and Zarr formats).
+Cell feature matrices (HDF5 format).
+Cell boundaries (Parquet format).
+Gene panel information (JSON format).
+Spatial transcriptomics data (HDF5 format).
