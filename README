@@ -1,5 +1,8 @@
 Spatial Transcriptomic Profiling of Key Genes in Ovarian Cancer and Deciphering Tumor Microenvironment
 
+![GA](https://github.com/user-attachments/assets/149a9ba8-175f-4bb5-9af6-754c887ba744)
+
+
 OvarySpatial is a Python-based pipeline for analyzing single-cell RNA sequencing (scRNA-seq) data, focusing on clustering, pseudotime trajectory analysis, and gene expression visualization in the context of ovarian cancer. This project utilizes Scanpy for efficient data processing and advanced pseudotime analysis.
 
 Features
